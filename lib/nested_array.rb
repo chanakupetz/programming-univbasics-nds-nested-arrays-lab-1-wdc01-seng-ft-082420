@@ -1,23 +1,25 @@
 # Examples inspired by U. S. National Organic Standards
-def assembled_matrix
+ORGANIC_PRODUCE = [
+  "Strawberries",
+  "Potatoes",
+  "Grapes",
+  "Avocadoes",
+  "Asparagus"
+]
 
-  ORGANIC_PRODUCE = [
-    "Strawberries",
-    "Potatoes",
-    "Grapes",
-    "Avocadoes",
-    "Asparagus"
-  ]
-
-  CONVENTIONAL_PRODUCE = [
+CONVENTIONAL_PRODUCE = [
   "Grapefruit",
   "Pineapple",
   "Oranges",
   "Watermelon",
   "Eggplant"
 ]
-  assembled_matrix[CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-  end
+
+def assembled_matrix
+  [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+end
+
+
 
 # Build an array that contains both of the above arrays
 # This matrix will represent a produce storage room
