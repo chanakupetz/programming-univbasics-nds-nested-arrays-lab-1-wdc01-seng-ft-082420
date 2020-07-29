@@ -41,8 +41,7 @@ def sorted_matrix
     "Eggplant"
   ]
 
-  sorted_matrix[CONVENTIONAL_PRODUCE].sort
-  sorted_matrix[ORGANIC_PRODUCE].sort
+  sorted_matrix.sort
 
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
